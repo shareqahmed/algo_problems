@@ -1,4 +1,4 @@
-a = {"array": [1, 2, 3, 4, 5, 6, 7, 8, 9, 66, 5], "targetSum": 17}
+
 def twoNumberSum(array, targetSum):
     for i in range(len(array)-1):
         firstNum = array[i]
@@ -9,7 +9,7 @@ def twoNumberSum(array, targetSum):
             if firstNum + secondNum == targetSum:
                 return [firstNum, secondNum]
     return []
-
+a = {"array": [1, 2, 3, 4, 5, 6, 7, 8, 9, 66, 5], "targetSum": 17}
 solution1 = twoNumberSum(a["array"], a["targetSum"])
 print(solution1)
 

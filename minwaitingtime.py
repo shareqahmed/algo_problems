@@ -10,6 +10,6 @@ def MinimumWaitingTime(queries):
 
     return totalwaitingtime
 
-queries = [3, 2, 1, 2, 6]
+queries = [3, 2, 1, 2, 6, 9, 6]
 sol = MinimumWaitingTime(queries)
 print(sol)
